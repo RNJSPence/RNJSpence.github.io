@@ -23,9 +23,10 @@ body {
   #banner {
     grid-column: 1/span 12;
     height: 200px;
-    width:1775px;
+    width:100%;
     grid-column: 1 / 13;
     grid-row: 1;
+
   }
 
   
@@ -64,8 +65,8 @@ body {
 
 
   #story{
-    grid-column: 4/10;
-    grid-row:4/6;
+    grid-column: 4/9;
+    grid-row:3/6;
     font-family: 'Times New Roman', Times, serif;
     font-size: 125%;
     text-align: left;
@@ -73,11 +74,17 @@ body {
   }
 
   #nav{
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 8;
+    grid-row: 3;
     background-color: lightgray;
     border-radius: 25%;
     padding: 20px;
+    margin-left: 50px;
+  }
+
+  #space{
+    grid-column: 9;
+    grid-row: 3;
     margin-left: 50px;
   }
 

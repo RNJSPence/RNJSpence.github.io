@@ -23,7 +23,7 @@ body {
   #banner {
     grid-column: 1/span 12;
     height: 200px;
-    width:1775px;
+    width:100%;
     grid-column: 1 / 13;
     grid-row: 1;
   }
@@ -58,65 +58,30 @@ body {
   }
 
   #story1{
-    grid-column: 5/13;
+    grid-column:5/ span 6;
     grid-row:4/10;
     font-family: 'Times New Roman', Times, serif;
     font-size: 125%;
     text-align: left;
-    margin-right: 400px;
+  
     text-align: left;
   }
-
-  #Title2{
-    background-color: #ffffff;
-    color:black;
-    padding-top: 10px;
-    grid-column: 5/10;
-    grid-row: 7;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    font-size: 100px;
-  }
-
-  #story2{
-    grid-column: 5/13;
-    grid-row:9/10;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 125%;
-    text-align: left;
-    margin-right: 400px;
-    text-align: left;
-  }
-
-  #Title3{
-    background-color: #ffffff;
-    color:black;
-    padding-top: 10px;
-    grid-column: 5/10;
-    grid-row: 10;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    font-size: 100px;
-  }
-
-  #story3{
-    grid-column: 5/13;
-    grid-row:11/12;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 125%;
-    text-align: left;
-    margin-right: 400px;
-    text-align: left;
-  }
+  
 
 
   #nav{
-    grid-column: 1;
+    grid-column: 11;
     grid-row: 5;
     background-color: lightgray;
     border-radius: 25%;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
+  }
+
+  #space{
+    grid-column: 12;
+    grid-row: 5;
+    margin-left: 35px;
   }
 
   li{
